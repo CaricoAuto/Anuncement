@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+h1{
+    float: left;
+}
+.h1 a {
+    background-image: url(../img/file.png);
+    display: block;
+    height: 48px;
+    width: 176px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-li:hover{
+    background-color: rgba(37, 137, 72, 0.422);
+    transition-duration: .3s;
+    color: #fff;
+}
+
+.nav-li:hover a{
+    color: #fff !important;
+}
+
+.nav-li,.li-control{
+    padding: 10px;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1514053514818-a89e7ce304e9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.bg-blur{
+    background-color: rgba(78.63, 78.63, 78.63, 0.15);
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+}
